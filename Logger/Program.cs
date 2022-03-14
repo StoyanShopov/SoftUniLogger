@@ -13,14 +13,6 @@
     {
         public static void Main(string[] args)
         {
-
-            ILayout layout1 = new SimpleLayout();
-            IAppender appender1 = new ConsoleAppender(layout1);
-
-            Console.WriteLine(appender1.ReportLevel.ToString());
-
-            return;
-
             int appendersCount 
                 = int.Parse(Console.ReadLine());
 
